@@ -1,0 +1,56 @@
+@font-family{
+    font-family:Alegreya;
+    src:url(AlegreyaSans-Black.ttf);
+}
+.stylebody{
+     background-image:linear-gradient(45rad,black,indigo,darkblue,blue,lightblue,white);
+     animation:gradient 15s ease infinite;
+     background-size:400% 400%;
+     color:whitesmoke;
+ }
+.abc{
+     background-image:linear-gradient(-45rad,white,lightblue,blue,darkblue,indigo,black);
+     animation:gradient 15s ease infinite;
+     background-size:400% 400%;
+     color: whitesmoke;
+}
+.def {}
+.def :hover{
+    background-image:linear-gradient(-45rad,white,lightpink,pink,red,maroon);
+     animation:gradient 15s ease infinite;
+     background-size:400% 400%;
+     color: whitesmoke;
+}
+@keyframes gradient{
+    0%{
+       background-position: 0% 50%;
+    }
+    50%{
+      background-position:50% 100%;
+    }
+    100%{
+      background-position:0% 50%;
+    }
+
+}
+ section
+ {
+    align-self: auto;
+ }
+ 
+ header{
+     color:whitesmoke;
+     font-family:Alegreya;
+     size:40px
+ }
+ .Music{
+     font: Alegreya;
+     background-image: linear-gradient(white,black);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+ }
+ #background{
+     align-content: right;
+ }
